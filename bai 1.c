@@ -1,4 +1,4 @@
-// Viet ham tinh ucln(a,b), ap dung ham trn de tinh ucln cua 1 day so nguyen
+// Viet ham tinh ucln(a,b), ap dung ham tren de tinh ucln cua 1 day so nguyen
 #include<stdio.h>
  int gcd(int a,int b);
  int gcd_arr(int a[], int n);
