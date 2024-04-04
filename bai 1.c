@@ -8,10 +8,6 @@
  	scanf("%d%d",&a,&b);
  	ucln=gcd(a,b);
  	printf("%d",ucln);
- 	char x;
-	printf("\nBan co muon tinh ucln cua 1 day hay khong(y or n): ");
-	scanf(" %c",&x);
-	if(x=='y'){
 		int i,n;
 		printf("So phan tu can nhap:");
 		scanf("%d",&n);
@@ -19,8 +15,7 @@
 		printf("Moi nhap vao mang:");
 		nhapmang(a,n);
 		ucln=gcd_arr(a,n);
-		printf("%d",ucln);
-	}  
+		printf("%d",ucln); 
  }
  
  void nhapmang(int a[], int n){
