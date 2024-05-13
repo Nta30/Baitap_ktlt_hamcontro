@@ -1,5 +1,5 @@
 /**
- 1 chuoi ky tu duoc goi la chuoi C neu no khong thay doi khi dao nguoc lai
+ 1 chuoi ky tu duoc goi la chuoi Palindrome neu no khong thay doi khi dao nguoc lai
   VD:22022022
   Viet chuong trinh nhap 1 chuoi roi kiem tra xem co phai la Palindrome khong
 **/
