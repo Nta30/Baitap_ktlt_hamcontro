@@ -8,18 +8,16 @@
  void Nhap(int a[], int n );
  int main(){
  	int a,b;
+ 	printf("Nhap vao 2 so a va b:"); 
  	scanf("%d%d",&a,&b);
- 	printf("%d",lcm(a,b));
-	char x;
-	 printf("\nBan co muon tim Bcnn cua 1 day so khong ( y or n ): ");
-	 scanf(" %c",&x);
-	 if(x=='y'){
-	 	int i,n;
-	 	scanf("%d",&n);
-	 	int a[n];
-	 	Nhap(a,n);
-	 	printf("%d",lcm_arr(a,n));
-	 }
+ 	printf("BCNN cua %d va %d la:%d\n",a,b,lcm(a,b));
+	int i,n;
+	printf("Nhap vao so phan tu cua mang:");
+	scanf("%d",&n);
+	int c[n];
+	printf("Nhap vao phan tu cua mang (viet so sau do cach):");
+	Nhap(c,n);
+	printf("BCNN cua mang la:%d",lcm_arr(c,n));
  }
  int ucln(int a, int b){
  	int temp;
