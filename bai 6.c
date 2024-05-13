@@ -50,6 +50,6 @@
  	for(i=vt;i<*n;i++){
  		arr[i]=arr[i+1];
 	 }
-	 arr = (int *)realloc(arr, *(n - 1) * sizeof(int));//Dieu chinh lai kich thuoc cua mang sau khi xoa 1 phan tu;
+	 arr = (int *)realloc(arr, (*n - 1) * sizeof(int));//Dieu chinh lai kich thuoc cua mang sau khi xoa 1 phan tu;
 	(*n)--;
  }
