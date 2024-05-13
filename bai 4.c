@@ -10,8 +10,10 @@
  int check_giam(float a[], int n);
  int main(){
  	int n,count=0;
+ 	printf("Nhap vao so phan tu cua mang:");
  	scanf("%d",&n);
  	float a[n];
+ 	printf("Moi nhap vao mang:");
  	Nhap(a,n);
  	if(check_tang(a,n)==1){
  		printf("1");
