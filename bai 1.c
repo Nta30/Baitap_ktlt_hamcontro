@@ -5,17 +5,18 @@
  void nhapmang(int a[], int n);
  int main(){
  	int a,b,ucln;
+ 	printf("Nhap vao 2 so a va b:");
  	scanf("%d%d",&a,&b);
  	ucln=gcd(a,b);
- 	printf("%d",ucln);
-		int i,n;
-		printf("So phan tu can nhap:");
-		scanf("%d",&n);
-		int a[n];
-		printf("Moi nhap vao mang:");
-		nhapmang(a,n);
-		ucln=gcd_arr(a,n);
-		printf("%d",ucln); 
+ 	printf("UCLN cua %d va %d la:%d\n",a,b,ucln);
+	int i,n;
+	printf("So phan tu can nhap:");
+	scanf("%d",&n);
+	int c[n];
+	printf("Moi nhap vao mang:");
+	nhapmang(c,n);
+	ucln=gcd_arr(c,n);
+	printf("%d",ucln); 
  }
  
  void nhapmang(int a[], int n){
