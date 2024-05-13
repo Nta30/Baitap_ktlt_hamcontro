@@ -11,10 +11,13 @@
  
  int main(){
  	int n;
+ 	printf("Nhap n:"); 
  	scanf("%d",&n);
  	int *arr;
  	arr=(int *) malloc(n*sizeof(int));//Cap phat dong(Co the dung calloc)
+ 	printf("Moi nhap vao mang:");
  	Nhap(arr,n);
+ 	printf("Mang vua nhap vao la:");
  	Xuat(arr,n);
  	int i,j;
  	for(i=0;i<n-1;i++){ 
